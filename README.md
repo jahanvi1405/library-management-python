@@ -27,4 +27,10 @@ Simple. Functional. Effective.
 
 ---
 
-## 📂 Project Structure
+## 🧠 How It Works
+- The program displays a menu-driven interface to the user
+- Book records are stored in a CSV file (`library.csv`)
+- Each operation (Add, Modify, Delete, Search) reads or updates the CSV file
+- A temporary file is used while modifying or deleting records to ensure data safety
+- The program runs in a loop until the user chooses to exit
+
